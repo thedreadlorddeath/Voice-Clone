@@ -1,0 +1,41 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Application audio outputs & reference caches
+outputs/
+.cache_refs/
+
+# User voice reference samples (keep private)
+my_voice.wav
+*.wav
+*.mp3
+*.m4a
+
+# Model & Hugging Face local caches
+.cache/
+hf_cache/
+
+# Temporary & Log files
+*.tmp
+*.log
+tmp_*
+_test_*
+_debug_*
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,19 @@
+# Install CUDA-enabled PyTorch first (for RTX 3050 6GB on Windows):
+#   pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+# Then install the remaining dependencies:
+#   pip install -r requirements.txt
+
+chatterbox-tts>=0.1.7
+gradio>=6.8.0
+pydub>=0.25.1
+imageio-ffmpeg>=0.5.1
+noisereduce>=3.0.3
+scipy>=1.10.0
+numpy>=1.24.0,<2.0.0
+# Pin established releases so Windows Smart App Control allows their .pyd extensions
+regex==2024.11.6
+numba==0.61.2
+llvmlite==0.44.0
+scikit-learn==1.5.2
+setuptools<70
+audioop-lts>=0.2.1; python_version >= "3.13"
